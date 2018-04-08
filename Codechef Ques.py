@@ -1,11 +1,25 @@
+import random as rd
 import lxml
 import bs4 as bs
 import urllib.request
-sauce = urllib.request.urlopen('https://www.codechef.com/problems/FBMT').read()
+url = 'https://www.codechef.com/problems/'
+sauce = urllib.request.urlopen('https://www.codechef.com/problems/school/').read()
+soup = bs.BeautifulSoup(sauce,'lxml')
+url1=[]
+fin1=[]
+for p in soup.find_all('a'):
+    url1.append(p.text)
+#url_ind1 = url1.index('Accuracy')
+url1 = url1[64:-34]
+for i in range(1,len(url1)-9,3):
+    fin1.append(url1[i])
+url+=fin1[rd.randrange(len(fin1))]
+#print('url',url)
+sauce = urllib.request.urlopen(url).read()
 soup = bs.BeautifulSoup(sauce,'lxml')
 
 
-
+    
 '''p_tags=[]
 h3_tags=['Input','Output']
 u_tags=[]
