@@ -5,15 +5,15 @@ import urllib.request
 url = 'https://www.codechef.com/problems/'
 sauce = urllib.request.urlopen('https://www.codechef.com/problems/school/').read()
 soup = bs.BeautifulSoup(sauce,'lxml')
-url1=[]
-fin1=[]
-for p in soup.find_all('a'):
-    url1.append(p.text)
+#url1=[]
+beggi=['CNDLOVE', 'SINS', 'SPAMCLAS', 'ORDTEAMS', 'ZUBTRCNT', 'FRK', 'ZUBREACH', 'CHEFCHR', 'BIGSALE', 'CHEGLOVE', 'COUPSYS', 'L56GAME', 'CODERLIF', 'SURVIVE', 'HILLS', 'CO92JUDG', 'SMRSTR', 'KFIB', 'RGAME', 'VILTRIBE', 'CHRL4', 'GIT01', 'STRLBP', 'GOODBAD', 'CCOOK', 'RNDPAIR', 'NW1', 'FBMT', 'RECTANGL', 'ALEXTASK', 'TWEED', 'KOL16B', 'SEBIHWY', 'LISDIGIT', 'LIKECS01', 'C00K0FF', 'LTM40AB', 'SNELECT', 'ENTEXAM', 'KOL16J', 'PERFCONT', 'CHEFAPAR', 'MATPAN', 'CK87MEDI', 'CHNGOR', 'CHEFROUT', 'SNAKPROC', 'XENTASK', 'TEMPLELA', 'SEGM01', 'ADACRA', 'CHEFDETE', 'NOTINCOM', 'LADDU', 'COOMILK', 'BUGCAL', 'CHEFSUM', 'NITIKA', 'BRLADDER', 'ACBALL', 'LOSTMAX', 'LCOLLIS', 'GOODSET', 'EGRANDR', 'ELEVSTRS', 'DEVARRAY', 'RAINBOWA', 'ICPC16B', 'SIMDISH', 'OMWG', 'ANKTRAIN', 'UTMOPR', 'CHCHCL', 'CHEFSTUD', 'STICKS', 'CATSDOGS', 'WDTBAM', 'TTENIS', 'TWONMS', 'DWNLD', 'TALAZY', 'TICKETS5', 'SIMPSTAT', 'ALTARAY', 'CANDY123', 'FLOW015', 'ALPHABET', 'CHRL2', 'SUBINC', 'BRACKETS', 'STRPALIN', 'CFRTEST', 'LONGSEQ', 'COLOR', 'DEVUGRAP', 'ICPC16A', 'MOVIEWKN', 'FRGTNLNG', 'CHEFARRP', 'KTTABLE', 'CHEFSQ', 'RRJOKE', 'VCS', 'CHN09', 'RECTSQ', 'TRICOIN', 'COPS', 'MISSP', 'MNMX', 'LCH15JAB', 'TWOSTR', 'FRUITS', 'PPSUM', 'CHEFSTLT', 'FLOW014', 'FLOW011', 'GDOG', 'FLOW016', 'FLOW009', 'HEADBOB', 'AMR15A', 'TRISQ', 'CHOPRT', 'FLOW010', 'SMPAIR', 'PRB01', 'PALL01', 'COMM3', 'FLOW013', 'FLOW005', 'FLOW008', 'FLOW018', 'ONP', 'RECIPE', 'FLOW017', 'REMISS', 'FSQRT', 'PERMUT2', 'FLOW007', 'SUMTRIAN', 'FLOW004', 'LUCKFOUR', 'START01', 'CIELRCPT', 'FLOW002', 'FLOW006', 'MUFFINS3', 'TLG', 'FLOW001', 'TSORT']
+#for p in soup.find_all('a'):
+#    url1.append(p.text)
 #url_ind1 = url1.index('Accuracy')
-url1 = url1[64:-34]
-for i in range(1,len(url1)-9,3):
-    fin1.append(url1[i])
-url+=fin1[rd.randrange(len(fin1))]
+#url1 = url1[64:-34]
+#for i in range(1,len(url1)-9,3):
+#    fin1.append(url1[i])
+url+=beggi[rd.randrange(len(beggi))]
 #print('url',url)
 sauce = urllib.request.urlopen(url).read()
 soup = bs.BeautifulSoup(sauce,'lxml')
