@@ -52,7 +52,7 @@ The URL for the Submit button also follows a similar standard template approach 
 
 ## What is that you need to do :question: :wink:
 
-Since these judges hold contests frequently and thus the pool of questions keeps on increasing. So after month I will update the pool with the most recent questions with new features and updates. To get the most recent contest questions, just download the contents of the repository again. 
+Since these judges hold contests frequently and thus the pool of questions keeps on increasing. So after every month I will update the pool with the most recent questions with new features and updates. To get the most recent contest questions, just download the contents of the repository again. 
 
 ## Future Plans ##
 + Add a timer so that the contest ends automatically after 2.5/3 hours.
