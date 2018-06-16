@@ -13,7 +13,25 @@ Every competitive programmer wants a good mix of questions from different judges
 + Python
 
 **Python Modules needed –**
-+Tkinter (For GUI)
++ Tkinter
++ PIL
++ lxml
++ bs4
++ webbrowser
++ requests
++ urllib
+
+**_Tip:_** - The simplest way to get the above modules is to use pip. :thumbsup:
+
+**Setup on your PC**
++ After you are done with downloading the above modules you have to download the contents of this repository.
++ Unzip it and run the python file named “Virtual_Online_Judge.py”
+
+**A Tkinter GUI window will pop up which will something like this: - **
+
+
+
+
 
 
 
