@@ -9,7 +9,11 @@ Every competitive programmer wants a good mix of questions from different judges
 
 ## Set-Up Instructions :exclamation:
 
-**Technologies needed – **
+**Technologies needed –**
 + Python
+
+**Python Modules needed –**
++Tkinter (For GUI)
+
 
 
