@@ -50,6 +50,16 @@ Once the URL is generated, the respective website is parsed and the entire quest
 The URL for the Submit button also follows a similar standard template approach and is obtained in a similar way.
 
 
+## What is that you need to do :question: :wink:
+
+Since these judges hold contests frequently and thus the pool of questions keeps on increasing. So after month I will update the pool with the most recent questions with new features and updates. To get the most recent contest questions, just download the contents of the repository again. 
+
+## Future Plans ##
++ Add a timer so that the contest ends automatically after 2.5/3 hours.
++ Maintain a database of user’s previous contests and use data analytics to provide user with specific tag-based questions which the user couldn’t solve. This would allow to work on the weaker areas and improve.
++ Get the submission status for the respective question and provide a final score out of 1000.
++ Beautify the GUI.
+
 
 
 
