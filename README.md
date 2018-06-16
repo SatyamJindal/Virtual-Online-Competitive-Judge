@@ -22,7 +22,7 @@ Every competitive programmer wants a good mix of questions from different judges
 + requests
 + urllib
 
-**_Tip:_** - The simplest way to get the above modules is to use pip. :thumbsup:
+**_Tip:_** - The easiest way to get the above modules is to use pip. :thumbsup:
 
 **_Note:_**- Before you begin attempting the questions make sure you have logged in to your respective judges with your respective account details.
 
