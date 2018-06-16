@@ -56,6 +56,7 @@ Since these judges hold contests frequently and thus the pool of questions keeps
 
 ## Future Plans ##
 + Add a timer so that the contest ends automatically after 2.5/3 hours.
++ Add more judges (SPOJ, hackerearth) if asked.
 + Maintain a database of user’s previous contests and use data analytics to provide user with specific tag-based questions which the user couldn’t solve. This would allow to work on the weaker areas and improve.
 + Get the submission status for the respective question and provide a final score out of 1000.
 + Beautify the GUI.
