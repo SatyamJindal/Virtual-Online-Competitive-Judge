@@ -38,6 +38,8 @@ Every competitive programmer wants a good mix of questions from different judges
 
 After you see the above window, you are all set to attempt all the questions. A basic display would be something like: - 
 
+![alt text](https://github.com/SatyamJindal/Virtual-Online-Competitive-Judge/blob/master/Problem_demo.gif "Logo Title Text 1")
+
 
 
 
