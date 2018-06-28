@@ -45,7 +45,7 @@ After you see the above window, you are all set to attempt all the questions. A 
 
 Codechef and Codeforces have a standard template of contest information of their own. The script initially randomly selects from either of the two judges and then randomly generates the URL of the question based on the difficulty of the problem. 
 
-Once the URL is generated, the respective website is parsed and the entire question is scraped using the beautiful soup library using the lxml parser and printed as it in in the GUI after removing all the HTML tags and string formatting.
+Once the URL is generated, the respective website is parsed and the entire question is scraped using the beautiful soup library using the lxml parser and printed as it is in the GUI after removing all the HTML tags and string formatting.
 
 The URL for the Submit button also follows a similar standard template approach and is obtained in a similar way.
 
