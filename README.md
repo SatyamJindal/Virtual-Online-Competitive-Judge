@@ -32,13 +32,13 @@ Every competitive programmer wants a good mix of questions from different judges
 
 **A Tkinter GUI window will pop up which will something like this: -**
 
-![alt text](https://github.com/SatyamJindal/Virtual-Online-Competitive-Judge/blob/master/GUI_Window.gif "Logo Title Text 1")
+![alt text](https://github.com/SatyamJindal/Virtual-Online-Competitive-Judge/blob/master/GUI_Window.gif "GUI")
 
 
 
 After you see the above window, you are all set to attempt all the questions. A basic display would be something like: - 
 
-![alt text](https://github.com/SatyamJindal/Virtual-Online-Competitive-Judge/blob/master/Problem_demo.gif "Logo Title Text 1")
+![alt text](https://github.com/SatyamJindal/Virtual-Online-Competitive-Judge/blob/master/Problem_demo.gif "GUI")
 
 
 ## How it works :question:
